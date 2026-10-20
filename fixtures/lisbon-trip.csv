@@ -1,0 +1,6 @@
+date,description,paid_by,amount,currency,split
+2026-05-02,Flights deposit,ana,400.00,EUR,ana;ben;chloe;dev
+2026-05-03,"Dinner, Alfama",ben,100.00,EUR,ana;ben;chloe
+2026-05-04,Apartment,chloe,900.00,EUR,ana:2;ben:1;chloe:2;dev:1
+2026-05-04,Car rental,dev,400.00,EUR,ana;ben;chloe;dev
+2026-05-05,Pastéis de nata,ana,10.00,EUR,ben;chloe;dev

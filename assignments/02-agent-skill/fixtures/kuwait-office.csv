@@ -1,0 +1,4 @@
+date,description,paid_by,amount,currency,split
+2026-03-02,Office lunch,huda,18.750,KWD,huda;faisal;noor
+2026-03-09,Printer toner,faisal,32.5,KWD,huda;faisal;noor
+2026-03-16,Courier,noor,4.125,KWD,huda:2;faisal:1;noor:1

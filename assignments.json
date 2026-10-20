@@ -1,0 +1,44 @@
+{
+  "assignments": [
+    {
+      "id": "01-agents-md",
+      "title": "AGENTS.md for tally",
+      "skill": "Context engineering",
+      "minutes": 90,
+      "branch": "assignment/01-agents-md",
+      "acceptance": "assignments/01-agents-md/acceptance.test.ts"
+    },
+    {
+      "id": "02-agent-skill",
+      "title": "An Agent Skill that adds a currency",
+      "skill": "Guides (skills)",
+      "minutes": 120,
+      "branch": "assignment/02-agent-skill",
+      "acceptance": "assignments/02-agent-skill/acceptance.test.ts"
+    },
+    {
+      "id": "03-guard-hook",
+      "title": "A hook that blocks dangerous commands",
+      "skill": "Sensors (hooks)",
+      "minutes": 120,
+      "branch": "assignment/03-guard-hook",
+      "acceptance": "assignments/03-guard-hook/acceptance.test.ts"
+    },
+    {
+      "id": "04-eval-pass-at-k",
+      "title": "An eval with pass@k reporting",
+      "skill": "Proving it works",
+      "minutes": 180,
+      "branch": "assignment/04-eval-pass-at-k",
+      "acceptance": "assignments/04-eval-pass-at-k/acceptance.test.ts"
+    },
+    {
+      "id": "05-openplanr-loop",
+      "title": "One OpenPlanr spec-to-ship loop",
+      "skill": "The full loop",
+      "minutes": 180,
+      "branch": "assignment/05-openplanr-loop",
+      "acceptance": "assignments/05-openplanr-loop/acceptance.test.ts"
+    }
+  ]
+}

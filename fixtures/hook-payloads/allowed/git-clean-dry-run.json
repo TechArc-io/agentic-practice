@@ -1,0 +1,15 @@
+{
+  "session_id": "9d1f5e2a-4c7b-4e0a-8f3d-2b6c1a7e9f40",
+  "transcript_path": "/home/learner/.claude/projects/-home-learner-agentic-practice/9d1f5e2a-4c7b-4e0a-8f3d-2b6c1a7e9f40.jsonl",
+  "cwd": "/home/learner/agentic-practice",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "git clean -n",
+    "description": "List untracked files",
+    "timeout": 120000,
+    "run_in_background": false
+  },
+  "tool_use_id": "toolu_01HkQ3vTn8Lw2Yb5Rc7Pd9Mx"
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "0199f4c2-7a1e-7c3b-9d24-5e8f6a1b3c70",
+  "transcript_path": "/home/learner/.codex/sessions/2026/10/20/rollout-0199f4c2.jsonl",
+  "cwd": "/home/learner/agentic-practice",
+  "hook_event_name": "PreToolUse",
+  "model": "gpt-5.5",
+  "permission_mode": "default",
+  "turn_id": "0199f4c2-7b30-7e11-a6c8-2d9f0e4b5a18",
+  "tool_name": "Bash",
+  "tool_use_id": "call_6Jx2pQ9rT4vW8yZ1",
+  "tool_input": {
+    "command": "npm test"
+  }
+}

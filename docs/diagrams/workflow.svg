@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-labelledby="title desc">
+  <title id="title">Fork, branch, pull request and CI</title>
+  <desc id="desc">The learner forks the repository, works on an assignment branch, and opens a pull request into the fork's main. The Practice quality job runs the pull request contract, lint, typecheck, unit tests, the verified-commands check and the assignment's acceptance test. A mentor reviews, then the learner merges.</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .card { fill: #f5f7fa; stroke: #9aa5b1; stroke-width: 1.5; }
+    .ci { fill: #ffffff; stroke: #2f6f8f; stroke-width: 1.5; }
+    .name { font: 600 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2933; }
+    .role { font: 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #52606d; }
+    .step { font: 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #1f2933; }
+    .band { font: 600 12px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2f6f8f; letter-spacing: 0.06em; }
+    .arrow { stroke: #52606d; stroke-width: 1.5; fill: none; marker-end: url(#head); }
+  </style>
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#52606d"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="880" height="250" rx="8"/>
+
+  <g transform="translate(24 24)">
+    <rect class="card" width="150" height="76" rx="6"/>
+    <text class="name" x="14" y="32">Your fork</text>
+    <text class="role" x="14" y="54">Actions enabled</text>
+  </g>
+  <g transform="translate(206 24)">
+    <rect class="card" width="190" height="76" rx="6"/>
+    <text class="name" x="14" y="32">Assignment branch</text>
+    <text class="role" x="14" y="54">assignment/03-guard-hook</text>
+  </g>
+  <g transform="translate(428 24)">
+    <rect class="card" width="190" height="76" rx="6"/>
+    <text class="name" x="14" y="32">Pull request</text>
+    <text class="role" x="14" y="54">into main of your fork</text>
+  </g>
+  <g transform="translate(650 24)">
+    <rect class="card" width="206" height="76" rx="6"/>
+    <text class="name" x="14" y="32">Mentor review</text>
+    <text class="role" x="14" y="54">approve, then you merge</text>
+  </g>
+
+  <path class="arrow" d="M174 62 H204"/>
+  <path class="arrow" d="M396 62 H426"/>
+  <path class="arrow" d="M618 62 H648"/>
+  <path class="arrow" d="M523 100 V126"/>
+
+  <g transform="translate(24 128)">
+    <rect class="ci" width="832" height="98" rx="6"/>
+    <text class="band" x="16" y="26">PRACTICE QUALITY · UNDER 5 MINUTES</text>
+    <text class="step" x="16" y="54">1 pull request contract</text>
+    <text class="step" x="226" y="54">2 lint</text>
+    <text class="step" x="336" y="54">3 typecheck</text>
+    <text class="step" x="486" y="54">4 unit tests</text>
+    <text class="step" x="636" y="54">5 verified commands</text>
+    <text class="step" x="16" y="80">6 assignment acceptance</text>
+    <text class="role" x="226" y="80">A failure names the check and the file to fix, on the pull request's Files tab.</text>
+  </g>
+</svg>

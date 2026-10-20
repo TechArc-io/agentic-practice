@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title desc">
+  <title id="title">Assignment path</title>
+  <desc id="desc">Five assignments in order: AGENTS.md and a skill guide the agent before it acts, a hook senses after, an eval measures, and an OpenPlanr loop combines them.</desc>
+  <style>
+    .bg { fill: #ffffff; }
+    .card { fill: #f5f7fa; stroke: #9aa5b1; stroke-width: 1.5; }
+    .accent { fill: #2f6f8f; }
+    .num { font: 600 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; }
+    .name { font: 600 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2933; }
+    .role { font: 13px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #52606d; }
+    .band { font: 600 12px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #52606d; letter-spacing: 0.06em; }
+    .rule { stroke: #9aa5b1; stroke-width: 1.5; }
+    .arrow { stroke: #52606d; stroke-width: 1.5; fill: none; marker-end: url(#head); }
+  </style>
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#52606d"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="880" height="210" rx="8"/>
+
+  <text class="band" x="24" y="34">GUIDES · BEFORE THE AGENT ACTS</text>
+  <line class="rule" x1="24" y1="44" x2="344" y2="44"/>
+  <text class="band" x="360" y="34">SENSOR · AFTER</text>
+  <line class="rule" x1="360" y1="44" x2="512" y2="44"/>
+  <text class="band" x="528" y="34">MEASURE</text>
+  <line class="rule" x1="528" y1="44" x2="680" y2="44"/>
+  <text class="band" x="696" y="34">FULL LOOP</text>
+  <line class="rule" x1="696" y1="44" x2="856" y2="44"/>
+
+  <g transform="translate(24 64)">
+    <rect class="card" width="152" height="112" rx="6"/>
+    <rect class="accent" x="12" y="12" width="30" height="22" rx="4"/>
+    <text class="num" x="27" y="28" text-anchor="middle">01</text>
+    <text class="name" x="12" y="60">AGENTS.md</text>
+    <text class="role" x="12" y="82">Context every</text>
+    <text class="role" x="12" y="98">session loads</text>
+  </g>
+  <g transform="translate(192 64)">
+    <rect class="card" width="152" height="112" rx="6"/>
+    <rect class="accent" x="12" y="12" width="30" height="22" rx="4"/>
+    <text class="num" x="27" y="28" text-anchor="middle">02</text>
+    <text class="name" x="12" y="60">Agent Skill</text>
+    <text class="role" x="12" y="82">A procedure loaded</text>
+    <text class="role" x="12" y="98">when a task needs it</text>
+  </g>
+  <g transform="translate(360 64)">
+    <rect class="card" width="152" height="112" rx="6"/>
+    <rect class="accent" x="12" y="12" width="30" height="22" rx="4"/>
+    <text class="num" x="27" y="28" text-anchor="middle">03</text>
+    <text class="name" x="12" y="60">Guard hook</text>
+    <text class="role" x="12" y="82">Blocks a command</text>
+    <text class="role" x="12" y="98">every time</text>
+  </g>
+  <g transform="translate(528 64)">
+    <rect class="card" width="152" height="112" rx="6"/>
+    <rect class="accent" x="12" y="12" width="30" height="22" rx="4"/>
+    <text class="num" x="27" y="28" text-anchor="middle">04</text>
+    <text class="name" x="12" y="60">Eval, pass@k</text>
+    <text class="role" x="12" y="82">How often the</text>
+    <text class="role" x="12" y="98">agent succeeds</text>
+  </g>
+  <g transform="translate(696 64)">
+    <rect class="card" width="160" height="112" rx="6"/>
+    <rect class="accent" x="12" y="12" width="30" height="22" rx="4"/>
+    <text class="num" x="27" y="28" text-anchor="middle">05</text>
+    <text class="name" x="12" y="60">OpenPlanr loop</text>
+    <text class="role" x="12" y="82">Spec, plan, review,</text>
+    <text class="role" x="12" y="98">then ship</text>
+  </g>
+
+  <path class="arrow" d="M176 120 H190"/>
+  <path class="arrow" d="M344 120 H358"/>
+  <path class="arrow" d="M512 120 H526"/>
+  <path class="arrow" d="M680 120 H694"/>
+
+  <text class="role" x="24" y="198">Each assignment builds on the files the previous one added to your fork.</text>
+</svg>

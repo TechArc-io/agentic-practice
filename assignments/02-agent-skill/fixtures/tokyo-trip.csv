@@ -1,0 +1,4 @@
+date,description,paid_by,amount,currency,split
+2026-04-06,Ryokan,kenji,96000,JPY,kenji;mia;sofia
+2026-04-07,Shinkansen tickets,mia,41740,JPY,kenji;mia;sofia
+2026-04-07,Ramen,sofia,3850,JPY,kenji:1;mia:1;sofia:2

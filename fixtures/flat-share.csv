@@ -1,0 +1,5 @@
+date,description,paid_by,amount,currency,split
+2026-09-01,September rent,priya,1850.00,GBP,priya:3;tom:2;sam:2
+2026-09-03,Broadband,tom,32.99,GBP,priya;tom;sam
+2026-09-14,Cleaning supplies,sam,17.45,GBP,priya;tom;sam
+2026-09-28,Electricity,tom,96.10,GBP,priya;tom;sam
